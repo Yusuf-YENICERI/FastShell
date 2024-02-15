@@ -399,7 +399,7 @@ for i in range(0,len(data)-1):
 
     # Run the command and capture the output
 
-    new_command = revs.replace("{revshell}",command)
+    new_command = revs.replace("\"{revshell}\"",command)
 
     print("--------------")
     print(f"{new_command}")
